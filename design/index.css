@@ -172,10 +172,9 @@ h2{
     body{
         width: 100%;
     }
+    
     .appart, .france{
         display: flex;
-        flex-direction: column;
-        transform: translateX(-50%);
         margin-left: 50%;
         width: auto;
     }
