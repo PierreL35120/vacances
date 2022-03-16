@@ -172,7 +172,6 @@ h2{
     body{
         width: 100%;
     }
-    
     .appart, .france{
         display: flex;
         flex-direction: column;
@@ -193,6 +192,7 @@ h2{
 
     .recherche{
         width: 100%;
+        height: auto;
     }
 
     .recherche{
@@ -202,5 +202,9 @@ h2{
 
     .france{
         margin-left: 55%;
+    }
+
+    .css-input{
+        width: 45%;
     }
 }
