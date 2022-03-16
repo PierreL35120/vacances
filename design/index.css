@@ -207,4 +207,8 @@ h2{
     .css-input{
         width: 45%;
     }
+        .cont-button{
+        visibility: hidden;
+    }
+
 }
