@@ -242,3 +242,92 @@
     background-color: var(--yellow);
     color:var(--black)
 }
+
+@media screen and (max-width: 720px) {
+    .produitimg, #produittext{
+        width: 90%;
+        display: flex;
+        height: auto;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+
+    .produitimg{
+        position:absolute
+    }
+
+    .imggrande{
+        margin-left: 0;
+        width: 100%;
+        height: 67%;
+    }
+    
+    .imgthumbun, .imgthumbdeux, .imgthumbtrois{
+        width: 30%;
+        height: 20%;
+        margin-top: 69%;
+        display: flex;
+    }
+    
+    .imgthumbun{
+        margin-left: -101%;
+    }
+
+    .imgthumbdeux{
+        margin-left: 3%;
+    }
+
+    .imgthumbtrois{
+        margin-left: 3%;
+    }
+    
+    #produittext{
+        position:absolute;
+        margin-top: 80%;
+        margin-left: 50px;
+        flex-direction: column;
+    }
+
+    #produittext span{
+        height: 30px;
+        display: flex;
+    }
+
+    .nomDuLieu{
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .titreSecteur, .titreDescription, .titreEquipe, .secteurCategorie, .secteurType, .titreMD, .titreChambre, .titreSdB, .titreMessage, .titrePrix{
+        font-size: 19px;
+        font-weight: bold;
+        color:var(--yellow);
+    }
+    
+    .titreSdB, .salleDeBain, .secteurType, .type{
+        margin-left: 0;
+    }
+
+    .prix, .titrePrix{
+        margin-left: 80%;
+        font-size: 30px;
+    }
+    
+    .valider{
+        margin-top: 0;
+    }
+
+    .prix, .titrePrix{
+        display: absolute;
+        margin-top: 30px;
+        width: 10%;
+    }
+
+    .chef, .visite{
+        display: flex;
+        width: 10%;
+    }
+}
