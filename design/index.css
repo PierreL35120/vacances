@@ -180,6 +180,10 @@ h2{
         margin-left: 45%;
     }
 
+    .france img{
+        width: 75vw;
+        height: auto;
+    }
     .recherche span{
         visibility: hidden;
         font-size: 1px;
