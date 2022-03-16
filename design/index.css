@@ -172,17 +172,24 @@ h2{
     body{
         width: 100%;
     }
+
     .appart, .france{
         display: flex;
         flex-direction: column;
         transform: translateX(-50%);
         margin-left: 45%;
-        width: auto;
     }
 
     .recherche span{
         visibility: hidden;
         font-size: 1px;
+    }
+
+    .appart img{
+        width: 90vw;
+        height: 60%;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .recherche input::placeholder{
@@ -204,17 +211,7 @@ h2{
         margin-left: 55%;
     }
 
-    .appart img{
-        width : 100%;
-        height: 66%;
-
-    }
-    
     .css-input{
         width: 45%;
     }
-        .cont-button{
-        visibility: hidden;
-    }
-
 }
