@@ -100,6 +100,12 @@
     margin-left: 10px;
 }
 
+.recherche input::placeholder{
+    visibility: hidden;
+    font-family: 'Cinzel', serif;
+    color: var(--yellow);
+}
+
 .rechercher:hover{
     background-color: var(--yellow);
     color: var(--grey);
@@ -160,4 +166,35 @@ h2{
 
 .appart{
     margin-bottom: -75vh;
+}
+
+@media screen and (max-width: 720px) {
+    body{
+        width: 100%;
+    }
+    .appart, .france{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(-50%);
+        margin-left: 50%;
+        width: auto;
+    }
+
+    .recherche span{
+        visibility: hidden;
+        font-size: 1px;
+    }
+
+    .recherche input::placeholder{
+        visibility: visible;
+        margin-top: 30px;
+    }
+
+    .recherche{
+        width: 720px;
+    }
+
+    .recherche{
+        justify-content: center;
+    }
 }
