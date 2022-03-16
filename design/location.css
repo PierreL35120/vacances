@@ -47,6 +47,7 @@
     grid-auto-rows: minmax(30px, 100px);
     height: 700px;
     margin-bottom: 50px;
+    margin-left: 7%;
 }
 
 .imggrande{
