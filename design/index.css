@@ -226,7 +226,7 @@ h2{
     }
     
     .appart span{
-        background-color: aliceblue;
+        background-color: var(--grey);
         width: 90vw;
         margin-left: 5vw;
         margin-bottom: 2%;
