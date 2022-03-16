@@ -175,6 +175,8 @@ h2{
     
     .appart, .france{
         display: flex;
+        flex-direction: column;
+        transform: translateX(-50%);
         margin-left: 50%;
         width: auto;
     }
