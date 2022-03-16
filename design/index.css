@@ -13,7 +13,7 @@
     background-size: cover;
 }
 
-.recherche{
+/*.recherche{
     width: 1200px;
     height: 100px;
     background-color: var(--grey);
@@ -45,7 +45,7 @@
     height: 25px;
 }
 
-.destination, .destinationText{
+ .destination, .destinationText{
     width: 169px;
 }
 
@@ -83,21 +83,30 @@
 
 .chambreText{
     margin-left: 55px;
-}
+} */
 
+.vactexte{
+    text-align: center;
+    color: var(--yellow);
+    font-size: 200%;
+    font-family: 'Cinzel', serif;
+}
 .rechercher{
+    margin-top: 1%;
     border: none;
     font-size: 18px;
     color: var(--yellow);
     border: solid 1px var(--yellow);
     border-radius: 5px;
-    width: 130px;
-    height: 22px;
+    width: 20%;
+    height: 300%;
     text-align: center;
     background-color: var(--grey);
     font-family: 'Cinzel', serif;
-    font-size: 16px;
+    font-size: 200%;
     margin-left: 10px;
+    transform: translateX(-50%);
+    margin-left: 50%;
 }
 
 .recherche input::placeholder{
@@ -182,12 +191,10 @@ h2{
 
     .france img{
         width: 75vw;
+        margin-top: 9%;
         height: auto;
     }
-    .recherche span{
-        visibility: hidden;
-        font-size: 1px;
-    }
+
 
     .appart img{
         width: 90vw;
@@ -209,6 +216,10 @@ h2{
     .recherche{
         justify-content: center;
         padding-top: 0;
+    }
+
+    .rechercher{
+        font-size: 130%;
     }
 
     .france{
