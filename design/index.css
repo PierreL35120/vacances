@@ -216,17 +216,19 @@ h2{
 
     .appart{
         width: 100vw;
-        margin-left: 5vh;
+        margin-left: 0;
     }
     
     .appart img{
-        width: 80vw;
+        width: 90vw;
+        margin-left: 5vw;
         height: auto;
     }
     
     .appart span{
         background-color: aliceblue;
-        width: 80vw;
+        width: 90vw;
+        margin-left: 5vw;
         margin-bottom: 2%;
     }
 
