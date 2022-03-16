@@ -286,7 +286,7 @@
     #produittext{
         position:absolute;
         margin-top: 80%;
-        margin-left: 50px;
+        margin-left: 40px;
         flex-direction: column;
     }
 
@@ -312,7 +312,7 @@
     }
 
     .prix, .titrePrix{
-        margin-left: 80%;
+        margin-left: 70%;
         font-size: 30px;
     }
     
