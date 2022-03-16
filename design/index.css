@@ -196,5 +196,10 @@ h2{
 
     .recherche{
         justify-content: center;
+        padding-top: 0;
+    }
+
+    .france{
+        margin-left: 55%;
     }
 }
