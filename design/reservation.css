@@ -94,6 +94,15 @@ footer{
         padding-bottom: 1vh;
     }
 
+    #reserveInput{
+        width: 95vw;
+        margin-left: 1vw;
+    }
+
+    .reservation, .formulaireReservation h2{
+        margin-left: 0;
+    }
+
     .valider{
         width: 20vw;
         margin-left: 50%;
